@@ -35,7 +35,7 @@ body {
     letter-spacing: 0.03;
     text-transform: uppercase;
 }
-.navigation {
+.navigation-own {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -43,16 +43,50 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02;
 }
-.navigation:hover {
+.navigation-own:hover {
     color: var(--OCEAN, #404BBF);
+    /* font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;*/
+}
+.navigation-own:active {
+    text-decoration: underline;
+}
+.navigation-two {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02;
 }
-.first:active {
-    text-decoration: underline;
+
+.navigation-two:hover {
+    color: var(--OCEAN, #404BBF);
+    /* font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;*/
+}
+.navigation-three {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+}
+
+.navigation-three:hover {
+    color: var(--OCEAN, #404BBF);
+    /* font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02;*/
 }
 .contact {
     color: var(--SLATE, #434455);

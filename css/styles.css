@@ -10,11 +10,6 @@ button {
 body {
     font-family: 'Roboto', sans-serif;
         color: #434455;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02;
         background-color: #FFFFFF;
 }
 .logo {
@@ -154,6 +149,19 @@ body {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02;
+}
+.text {
+    color: var(--SLATE, #434455);
+        /* Body */
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02;
+}
+.foto {
+    background-color: #F4F4FD;
 }
 .low {
     background-color: #2e2f42;

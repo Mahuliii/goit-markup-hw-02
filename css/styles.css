@@ -23,12 +23,12 @@ body {
 }
 .logo-link {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; 
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 .navigation-own {
     color: var(--NAVY-BLUE, #2E2F42);

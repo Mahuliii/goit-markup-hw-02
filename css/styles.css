@@ -40,11 +40,7 @@ body {
 }
 .navigation-own:hover {
     color: var(--OCEAN, #404BBF);
-    /* font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02;*/
+   
 }
 .navigation-own:active {
     text-decoration: underline;

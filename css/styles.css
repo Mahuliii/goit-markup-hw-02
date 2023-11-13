@@ -118,6 +118,7 @@ body {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .service {
         background-color: #4D5AE5;
@@ -148,6 +149,10 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
+}
+.team-own {
+    background-color: #FFFFFF;
 }
 .title-three {
         color: #2E2F42;

@@ -30,7 +30,7 @@ body {
     letter-spacing: 0.03;
     text-transform: uppercase;*/
 }
-.navigation-own {
+.navigation {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -38,7 +38,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-own:hover {
+.navigation:hover {
     color: var(--OCEAN, #404bbf);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -47,7 +47,7 @@ body {
     letter-spacing: 0.02em;
    
 }
-.navigation-own:active {
+.navigation:focus {
     text-decoration: underline;
     color: #404bbf;
     font-family: 'Roboto', sans-serif;
@@ -56,40 +56,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-two {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
-.navigation-two:hover {
-    color: var(--OCEAN, #404bbf);
-    /* font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02;*/
-}
-.navigation-three {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.navigation-three:hover {
-    color: var(--OCEAN, #404bbf);
-    /* font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02;*/
-}
 .contact {
     color: var(--SLATE, #404bbf);
     font-family: 'Roboto', sans-serifo;
@@ -100,6 +67,15 @@ body {
     letter-spacing: 0.02em;
 }
 .contact:hover {
+    color: var(--OCEAN, #404bbf);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contact:focus {
     color: var(--OCEAN, #404bbf);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -132,7 +108,7 @@ body {
 .service:hover {
     background-color: #404bbf;
 }
-.service:active {
+.service:focus {
     background-color: #404bbf;
 }
 .service {
@@ -151,7 +127,7 @@ body {
         text-transform: capitalize;
         text-align: center;
 }
-.team-own {
+.team {
     background-color: #FFFFFF;
 }
 .title-three {
@@ -164,12 +140,10 @@ body {
 }
 .text {
     color: var(--SLATE, #434455);
-        /* Body */
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        /* 150% */
         letter-spacing: 0.02em;
 }
 .foto {
@@ -177,6 +151,9 @@ body {
 }
 .low {
     background-color: #2e2f42;
+}
+.logo-link-low{
+    color: var(--CLOUD, #F4F4FD);
 }
 .text-low {
     color: var(--CLOUD, #F4F4FD);

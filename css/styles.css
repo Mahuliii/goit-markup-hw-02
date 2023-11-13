@@ -56,26 +56,26 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 .contact {
+    font-style: normal;
+}
+.contact-style {
     color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serifo;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contact:hover {
+.contact-style:hover {
     color: var(--OCEAN,  #404bbf );
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.contact:focus {
+.contact-style:focus {
     color: var(--OCEAN, #404bbf);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;

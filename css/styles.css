@@ -58,7 +58,7 @@ body {
 }
 
 .contact {
-    color: var(--SLATE, #404bbf);
+    color: var(--SLATE, #434455);
     font-family: 'Roboto', sans-serifo;
     font-size: 16px;
     font-style: normal;
@@ -67,7 +67,7 @@ body {
     letter-spacing: 0.02em;
 }
 .contact:hover {
-    color: var(--OCEAN, #404bbf);
+    color: var(--OCEAN,  #404bbf );
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
